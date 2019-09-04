@@ -3,6 +3,12 @@ div.a {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Ne
 div.a {font-size: 15px;}
 div.a{font-weight: 300;}
 
+* {
+ font-size: 15px;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ font-weight: 300;
+}
+
 .three-column-footer-contact-form-container {
   background-color: #323232;
 }
