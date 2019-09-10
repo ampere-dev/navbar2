@@ -6,6 +6,7 @@
   .box a {
     color: #323232;
     display: block;
+    text-decoration:none;
     width: 100%;
     margin: 0;
     height: 100%;
