@@ -2,6 +2,7 @@
     width: 100px !important;
     height: 70px;
     background-color: transparent;
+    margin: 0 auto;
 } 
   .box a {
     color: #323232;
