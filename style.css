@@ -1,4 +1,3 @@
-
 div.a {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 div.a {font-size: 15px;}
 div.a{font-weight: 300;}
@@ -9,6 +8,14 @@ div.a{font-weight: 300;}
  font-weight: 300;
 }
 
+.site-branding {
+float: none;
+text-align: center;
+font-size: 75px;
+}
+
+.site-title {
+font-size: 50px;}
 .three-column-footer-contact-form-container {
   background-color: #323232;
 }
