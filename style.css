@@ -12,10 +12,14 @@ div.a{font-weight: 300;}
 float: none;
 text-align: center;
 font-size: 75px;
+color: #ffffff;
 }
 
 .site-title {
-font-size: 50px;}
+font-size: 50px;
+color: #ffffff;
+}
+
 .three-column-footer-contact-form-container {
   background-color: #323232;
 }
