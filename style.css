@@ -1,3 +1,4 @@
+ 
 div.a {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 div.a {font-size: 15px;}
 div.a{font-weight: 300;}
@@ -6,6 +7,18 @@ div.a{font-weight: 300;}
  font-size: 15px;
  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
  font-weight: 300;
+}
+
+ h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
 }
 
 .site-branding {
@@ -21,14 +34,14 @@ color: #ffffff;
 }
 
 .three-column-footer-contact-form-container {
-  background-color: #323232;
+  background-color: #ffffff;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form {
-  max-width: 75rem;
+  max-width: 80rem;
   margin-right: auto;
   margin-left: auto;
-  color: #ffffff;
+  color: #323232;
   padding: 1.5rem 0;
 }
 
@@ -48,7 +61,7 @@ color: #ffffff;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form a {
-  color: #ffffff;
+  color: #323232;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left {
@@ -73,7 +86,7 @@ color: #ffffff;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left .input-group input {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #323232;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -185,7 +198,7 @@ color: #ffffff;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right h2 {
-  color: #fefefe;
+  color: #323232;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right p {
@@ -228,5 +241,3 @@ color: #ffffff;
     float: right;
   }
 }
-
-
