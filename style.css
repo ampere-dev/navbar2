@@ -26,6 +26,15 @@ p {
   font-size: 15px;
 }
 
+body.top-navigation-position-below-banner #navigation-bottom {
+  position: fixed; 
+  top: 0;
+  border-bottom: none;
+  z-index: 999;
+} 
+
+#page-header-wrapper { margin-top: 180px; }
+
 .three-column-footer-contact-form-container {
   background-color: #ffffff;
 }
