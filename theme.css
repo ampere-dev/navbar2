@@ -233,7 +233,7 @@ nav {
   float: right; }
   nav .on {
     background: rgba(255, 255, 255, 0.6);
-    border-bottom: 3px solid #ea7b0e; }
+    border-bottom: 3px solid #FE0002; }
     nav .on:hover {
       opacity: 1; }
   nav a {
@@ -277,7 +277,7 @@ div.header.smaller {
     position: absolute;
     opacity: 0.5; }
   div.header.smaller .on {
-    border-bottom: 3px solid #ea7b0e;
+    border-bottom: 3px solid #FE0002;
     box-shadow: none; }
   div.header.smaller #mobile-menu-link span {
     background: #969ca9; }
@@ -466,7 +466,7 @@ section {
         width: 90%;
         padding: 0px 0px 20px 0px; } }
   section.orange {
-    background-color: #ea7b0e;
+    background-color: #FE0002;
     color: white; }
     section.orange h1 {
       color: white; }
@@ -481,7 +481,7 @@ section {
 ------------------------------------------------------------------------------------------------------------ */
 .banner-container {
   height: auto;
-  border-bottom: 5px solid #ea7b0e; }
+  border-bottom: 5px solid #FE0002; }
   .banner-container .block {
     height: 400px;
     width: 100%;
@@ -682,7 +682,7 @@ section {
     .cols > div .fa {
       font-size: 2.7em;
       padding-bottom: 20px;
-      color: #ea7b0e; }
+      color: #FE0002; }
       .cols > div .fa.fa-map-marker {
         font-size: 1.1em;
         padding: 0; }
@@ -846,7 +846,7 @@ section.split {
         max-width: 290px;
         width: 100%; }
     section.split > div.orange {
-      background: #ea7b0e;
+      background: #FE0002;
       color: white;
       height: 300px; }
       section.split > div.orange > div:first-child {
@@ -911,7 +911,7 @@ section.split {
 -------------------------------------------------------------- */
 section.quote {
   padding: 30px 0px;
-  background: #ea7b0e;
+  background: #FE0002;
   font: italic 1.5em/150% "Open Sans", sans-serif;
   text-align: center;
   color: white; }
@@ -1251,7 +1251,7 @@ input[type="submit"] {
       bottom: 0px; } }
   .arrow:hover {
     opacity: 1;
-    color: #ea7b0e; }
+    color: #FE0002; }
 
 /* Slider
 -------------------------------------------------------------- */
@@ -1300,7 +1300,7 @@ section.slider {
     .slide div:last-child {
       width: 50%;
       height: 100%;
-      background-color: #ea7b0e; }
+      background-color: #FE0002; }
       @media (max-width: 815px) {
         .slide div:last-child {
           width: 100%; } }
@@ -1422,7 +1422,7 @@ ul.contact-info {
       ul.contact-info li {
         display: block; } }
   ul.contact-info .fa {
-    color: #ea7b0e;
+    color: #FE0002;
     vertical-align: middle; }
     ul.contact-info .fa.fa-circle {
       color: white;
@@ -1443,7 +1443,7 @@ ul.contact-info {
 .address-line a {
   color: #646464; }
   .address-line a:hover {
-    color: #ea7b0e; }
+    color: #FE0002; }
 
 /* Trainz */
 .train {
@@ -1571,7 +1571,7 @@ section.clients {
       border: none;
       width: 150px; }
       .timeline .year-info button:hover {
-        background: #ea7b0e;
+        background: #FE0002;
         color: white; }
       .timeline .year-info button span {
         font-weight: 600;
@@ -1690,7 +1690,7 @@ section.clients {
       clear: both;
       font-size: 3em;
       margin-bottom: 15px;
-      color: #ea7b0e; }
+      color: #FE0002; }
     .stats div span:first-child {
       font-size: 3em;
       display: block; }
@@ -1728,7 +1728,7 @@ section.clients {
   -webkit-transition: top 0.3s ease-in-out; }
   @media (max-width: 815px) {
     .cs-overlay {
-      background: #ea7b0e;
+      background: #FE0002;
       position: relative;
       height: auto;
       top: 0;
@@ -2010,7 +2010,7 @@ section.split > div.contact-info {
     .landing-pg-form form input .btn, .landing-pg-form form textarea .btn {
       border: 2px solid #fff; }
     .landing-pg-form form input.ml, .landing-pg-form form textarea.ml {
-      border: 3px solid #ea7b0e; }
+      border: 3px solid #FE0002; }
     .landing-pg-form form input.lc, .landing-pg-form form textarea.lc {
       border: 3px solid #474f59; }
     .landing-pg-form form input.rl, .landing-pg-form form textarea.rl {
@@ -2027,7 +2027,7 @@ section.split > div.contact-info {
 /* Icons
 -------------------------------------------------------------- */
 .icon .fa {
-  color: #ea7b0e;
+  color: #FE0002;
   font-size: 2em; }
 
 /* Table
@@ -2066,10 +2066,10 @@ section.split > div.contact-info {
     color: #505050;
     opacity: 0.6; }
     .events .toggle a:hover {
-      color: #ea7b0e;
+      color: #FE0002;
       opacity: 1; }
     .events .toggle a.on {
-      color: #ea7b0e;
+      color: #FE0002;
       opacity: 1; }
 .events .item {
   text-align: left;
@@ -2140,7 +2140,7 @@ section.split > div.contact-info {
         .blog .main .post h1 a {
           color: #505050; }
           .blog .main .post h1 a:hover {
-            color: #ea7b0e; }
+            color: #FE0002; }
       .blog .main .post .post-img {
         padding-top: 10px; }
       .blog .main .post .read-more {
@@ -2158,10 +2158,10 @@ section.split > div.contact-info {
     color: #969ca9;
     padding: 0px 5px; }
     .pagination a:hover {
-      color: #ea7b0e;
+      color: #FE0002;
       opacity: 1; }
     .pagination a.on {
-      color: #ea7b0e;
+      color: #FE0002;
       opacity: 1;
       font-weight: 600; }
 
@@ -2173,7 +2173,7 @@ section.split > div.contact-info {
     color: #969ca9;
     padding: 0px 5px; }
     .next-prev-post a:hover {
-      color: #ea7b0e;
+      color: #FE0002;
       opacity: 1; }
     .next-prev-post a:first-child {
       float: left; }
@@ -2195,7 +2195,7 @@ section.split > div.contact-info {
       .sidebar > div ul li a {
         color: #969ca9; }
         .sidebar > div ul li a:hover {
-          color: #ea7b0e; }
+          color: #FE0002; }
   .sidebar .social-media a {
     font-size: 35px;
     margin-right: 12px;
@@ -2211,13 +2211,13 @@ section.split > div.contact-info {
   .meta a {
     color: #505050; }
     .meta a:hover {
-      color: #ea7b0e; }
+      color: #FE0002; }
 
 /* News Single Page
 -------------------------------------------------------------- */
 .pull-quote {
   font-size: 14px;
-  border-left: 5px solid #ea7b0e;
+  border-left: 5px solid #FE0002;
   padding: 5px 0px 5px 20px;
   margin: 20px 0px; }
   .pull-quote .quote {
@@ -2249,7 +2249,7 @@ section.split > div.contact-info {
       color: #505050;
       font-size: 15px; }
       .author-lrg .author-info a:hover {
-        color: #ea7b0e; }
+        color: #FE0002; }
 
 /* Comments
 -------------------------------------------------------------- */
