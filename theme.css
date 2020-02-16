@@ -26,8 +26,8 @@ html {
 
 body {
   font: 400 16px/1.8 "Open Sans", sans-serif;
-  background-color: #ea7b0e;
-  color: #505050;
+  background-color: #FE0002;
+  color: #323232;
   height: 100%; }
 
 /* Headings
@@ -52,7 +52,7 @@ p {
 -------------------------------------------------------------- */
 a {
   text-decoration: none;
-  color: #ea7b0e;
+  color: #FE0002;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -130,16 +130,16 @@ button[type="button"].btn, input[type="submit"].btn {
   transition: all 0.3s ease; }
   button[type="button"].btn:hover, input[type="submit"].btn:hover {
     background: white;
-    color: #ea7b0e;
+    color: #FE0002;
     cursor: pointer; }
   button[type="button"].btn.orange, input[type="submit"].btn.orange {
-    background: #ea7b0e;
-    border: 2px solid #ea7b0e;
+    background: #FE0002;
+    border: 2px solid #FE0002;
     text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4); }
     button[type="button"].btn.orange:hover, input[type="submit"].btn.orange:hover {
       background: none;
-      border: 2px solid #ea7b0e;
-      color: #ea7b0e;
+      border: 2px solid #FE0002;
+      color: #FE0002;
       text-shadow: none; }
   button[type="button"].btn.grey, input[type="submit"].btn.grey {
     background: rgba(255, 255, 255, 0.7);
@@ -147,8 +147,8 @@ button[type="button"].btn, input[type="submit"].btn {
     color: #969ca9; }
     button[type="button"].btn.grey:hover, input[type="submit"].btn.grey:hover {
       background: none;
-      border: 2px solid #ea7b0e;
-      color: #ea7b0e;
+      border: 2px solid #FE0002;
+      color: #FE0002;
       text-shadow: none; }
 
 /* Default Layout Styles
