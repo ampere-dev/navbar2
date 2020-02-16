@@ -1912,21 +1912,21 @@ body.resourcelibraries {
 -------------------------------------------------------------- */
 .banner-container.capability-statement {
   background: url("bg-capability-statement.webp") #000 center top fixed;
+   opacity:0.4;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%; }
+  background-size: 80%; }
   .banner-container.capability-statement .block {
     padding: 0; }
     .banner-container.capability-statement .block .panel {
       margin: 80px auto 0; }
 .banner-container.gsa-announcement {
   background: url("/frontend/images/landing/bg-gsa-announcement.jpg") #000 center top fixed;
-  opacity:0.4;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 80%; }
+  background-size: 100%; }
   .banner-container.gsa-announcement .block {
     padding: 0; }
     .banner-container.gsa-announcement .block .panel {
