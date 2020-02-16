@@ -1911,8 +1911,11 @@ body.resourcelibraries {
 /* Banner Images
 -------------------------------------------------------------- */
 .banner-container.capability-statement {
-  background: url("bg-capability-statement60.webp") #000 center top fixed;
+  background: url("bg-capability-statement.webp") #000 center top fixed;
   -webkit-background-size: 100%;
+  background-repeat: no-repeat;
+   filter: blur(4px);
+  -webkit-filter: blur(4px);
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%; }
