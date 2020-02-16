@@ -1912,7 +1912,6 @@ body.resourcelibraries {
 -------------------------------------------------------------- */
 .banner-container.capability-statement {
   background: url("bg-capability-statement80.webp") #000 center top fixed;
-   background-color: transparent;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
