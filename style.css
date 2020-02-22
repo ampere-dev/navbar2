@@ -1,6 +1,6 @@
-div.a {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
-div.a {font-size: 15px;}
-div.a{font-weight: 300;}
+div.a {font-family: 'Krona+One', serif;}
+div.a {font-size: 20x;}
+div.a{font-weight: 400;}
 
 * {
   margin: 1;
@@ -8,9 +8,9 @@ div.a{font-weight: 300;}
 }
 
 * {
- font-size: 15px;
- font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
- font-weight: 300;
+ font-size: 20px;
+ font-family: 'Krona+One', serif;
+ font-weight: 400;
 }
 
 h1 {
