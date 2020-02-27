@@ -65,6 +65,32 @@ nav a:hover {
   max-width: 100%;
   margin: 0 auto;
 }
+	    
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 </style>
 </head>
@@ -88,15 +114,13 @@ nav a:hover {
 </div>
 </body>
 	
-  <body>
+<body>
+	
 <!-- modify this form HTML and place wherever you want your form -->
- 
-<form
-  action="https://formspree.io/mvoaqoya"
-  method="POST"
->
-<center><h1 class="site-title">Contact / Inquiry Form</h1>
 
+<div class="split left">
+  <div class="centered">>
+<h1 class="site-title">Contact / Inquiry Form</h1>
 <h2>Please fill out all of the appropriate fields and then click the submit button to send your inquiry.<br> A member of our organization will contact you within one business day</h2>
 <h3>You may also call us direct at 888-345-LOAD</h3>
 
@@ -133,6 +157,36 @@ nav a:hover {
 <p class="ex1"><textarea rows="8" cols="77" input type="text" name="Testing_Application_Description" required></textarea>
 
 <p class="ex1"><input type="reset" value="Reset">  <button type="submit">Submit</button>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+For AC load test's we need to know the voltage, wattage; beyond that there are a few variable to ask further depending on the situation, frequency being one. Which is important when dealing with reactive load banks.
+
+For DC load test's we need to know the voltage and current.
+
+<b>When you call us, here’s what we may ask you:</b>
+
+What are the technical requirements? (<b>VAKFAC</b> Volts Amps Kilowatts Frequency And Cables)
+
+What is the total distance between the equipment to be tested and the load banks? (<b>LAMPP</b> Lengths Amount Per Phase)
+
+What is the expected rental period? (daily, weekly, monthly)
+
+What type of equipment will be tested? (application)
+
+Who will be performing the tests?
+
+How will the heat be dissipated? (vertical or horizontal)
+
+Where will the units be delivered?
+
+Do you need help with system design or operation?
+
+What date will you require the load banks on site?
+  </div>
+</div>
+     
 </body>
-</html>
-</form>
+</html> 
