@@ -575,11 +575,12 @@ section {
         font-size: 1.8em;
         padding-bottom: 10px; } }
   .panel span {
-    font: 500 1em/160% "Helvetica Neue", sans-serif;
-    width: 70%;
+    font: 1.1em/160% "Helvetica Neue", sans-serif;
+    width: 62%;
     margin: 0 auto;
     display: block;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    text-align: justify; }
     @media (max-width: 815px) {
       .panel span {
         line-height: 140%;
