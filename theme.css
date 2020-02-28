@@ -228,29 +228,7 @@ div.header {
       display: none;
       visibility: hidden; } }
 
-nav {
-  display: inline-block;
-  float: right; }
-  nav .on {
-    background: rgba(255, 255, 255, 0.6);
-    border-bottom: 3px solid #FE0002; }
-    nav .on:hover {
-      opacity: 1; }
-  nav a {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    font: 600 15px/70px "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
-    color: #000000
-    padding: 45px 13px 22px 13px; }
-    nav a:last-child {
-      margin-right: 0px; }
-    nav a:hover {
-      opacity: 0.5;
-      color: #000000 }
+
 
 /* Tiny Nav
 -------------------------------------------------------------- */
