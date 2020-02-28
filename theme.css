@@ -1902,8 +1902,7 @@ body.resourcelibraries {
   background-size: 100%; }
   .banner-container.gsa-announcement .block {
     padding: 0; }
-    .banner-container.gsa-announcement .block .panel {
-      margin: 80px auto 0; }
+    .banner-container.gsa-announcement .block .panel {}
 .banner-container h1#logo {
   float: left;
   padding: 15px;
