@@ -25,7 +25,7 @@ html {
   font-smoothing: antialiased; }
 
 body {
-  font: 400 16px/1.8 "Open Sans", sans-serif;
+  font: 400 16px/1.8 "Helvetica Neue", sans-serif;
   background-color: #FE0002;
   color: black;
   height: 100%; }
@@ -113,7 +113,7 @@ ol li {
 /* Button Styles
 -------------------------------------------------------------- */
 button[type="button"].btn, input[type="submit"].btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Krona One", sans-serif; 
   background: none;
   display: inline-block;
   font-weight: 600;
@@ -242,7 +242,7 @@ nav {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    font: 600 15px/70px "Open Sans", sans-serif;
+    font: 600 15px/70px "Helvetica Neue", sans-serif;
     text-transform: uppercase;
     color: #505050;
     padding: 45px 13px 22px 13px; }
@@ -264,7 +264,7 @@ div.header.smaller {
       div.header.smaller h1#logo img {
         padding-top: 0px; } }
   div.header.smaller nav a {
-    font: 600 13px/50px "Open Sans", sans-serif;
+    font: 600 13px/50px "Helvetica Neue", sans-serif;
     color: #505050;
     padding: 35px 8px 13px 8px; }
   div.header.smaller .container {
@@ -315,7 +315,7 @@ div.header.smaller {
   padding-bottom: 20px; }
   #menu-toggle-inner a {
     color: #505050;
-    font: 600 1.2em/280% "Open Sans", sans-serif;
+    font: 600 1.2em/280% "Helvetica Neue", sans-serif;
     text-transform: uppercase; }
     #menu-toggle-inner a:hover {
       opacity: 0.6; }
@@ -366,7 +366,7 @@ div.header.smaller {
 /* Footer
 -------------------------------------------------------------- */
 .footer-container {
-  font: 600 0.85em/170% "Open Sans", sans-serif;
+  font: 600 0.85em/170% "Helvetica Neue", sans-serif;
   background: #969ca9;
   color: white;
   padding: 50px 0px;
@@ -451,7 +451,7 @@ section {
     display: table;
     clear: both; }
   section h1 {
-    font: 500 1.7em/130% "Open Sans", sans-serif;
+    font: 500 1.7em/130% "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
     color: #505050; }
   section p:last-child {
@@ -460,7 +460,7 @@ section {
     width: 50%;
     padding: 10px 0px 50px 0px;
     margin: 0 auto;
-    font: 500 0.95em/160% "Open Sans", sans-serif; }
+    font: 500 0.95em/160% "Helvetica Neue", sans-serif; }
     @media (max-width: 815px) {
       section p.intro {
         width: 90%;
@@ -595,7 +595,7 @@ section {
       padding: 20px;
       margin: 10px auto 0; } }
   .panel h1 {
-    font: 500 2.1em/120% "Open Sans", sans-serif;
+    font: 500 2.1em/120% "Helvetica Neue", sans-serif;
     text-shadow: 1px 1px 0px #000;
     padding-bottom: 20px;
     letter-spacing: -0.02em; }
@@ -604,7 +604,7 @@ section {
         font-size: 1.8em;
         padding-bottom: 10px; } }
   .panel span {
-    font: 500 1em/160% "Open Sans", sans-serif;
+    font: 500 1em/160% "Helvetica Neue", sans-serif;
     width: 90%;
     margin: 0 auto;
     display: block;
@@ -912,7 +912,7 @@ section.split {
 section.quote {
   padding: 30px 0px;
   background: #FE0002;
-  font: italic 1.5em/150% "Open Sans", sans-serif;
+  font: italic 1.5em/150% "Helvetica Neue", sans-serif;
   text-align: center;
   color: white; }
   section.quote p {
@@ -920,7 +920,7 @@ section.quote {
     width: 90%;
     max-width: 960px; }
     section.quote p span {
-      font: normal 0.75em/150% "Open Sans", sans-serif;
+      font: normal 0.75em/150% "Helvetica Neue", sans-serif;
       padding-top: 30px;
       display: block; }
   section.quote .fa-circle {
@@ -1010,7 +1010,7 @@ section.quote {
           font-size: 0.5em; }
       .ui-widget-content #hb-inner .hb-box p {
         font-size: 18px;
-        font-family: "Open Sans", sans-serif;
+        font-family: "Helvetica Neue", sans-serif;
         font-weight: 600; }
       .ui-widget-content #hb-inner .hb-box a {
         color: white; }
@@ -1225,7 +1225,7 @@ input[type="submit"] {
       padding-bottom: 0px; }
 
 .tagline {
-  font: 600 1.4em/1.4 "Open Sans", sans-serif;
+  font: 600 1.4em/1.4 "Helvetica Neue", sans-serif;
   letter-spacing: -0.02em;
   padding: 0px 0px 50px 0px;
   color: #505050; }
@@ -1361,7 +1361,7 @@ section.slider {
       .thumbnails div .thumb.on {
         opacity: 1; }
       .thumbnails div .thumb span {
-        font: 600 0.85em/220% "Open Sans", sans-serif;
+        font: 600 0.85em/220% "Helvetica Neue", sans-serif;
         background: rgba(0, 0, 0, 0.8);
         width: 100%;
         height: 30px;
@@ -1402,14 +1402,14 @@ section.slider {
 /* Contact Page
 -------------------------------------------------------------- */
 ul.contact-info {
-  font: 600 normal 1.4em/1.4 "Open Sans", sans-serif;
+  font: 600 normal 1.4em/1.4 "Helvetica Neue", sans-serif;
   text-shadow: 1px 1px 0px #000;
   letter-spacing: -0.02em;
   display: inline;
   text-align: center; }
   @media (max-width: 815px) {
     ul.contact-info {
-      font: 600 normal 1.25em/180% "Open Sans", sans-serif;
+      font: 600 normal 1.25em/180% "Helvetica Neue", sans-serif;
       width: 100%;
       padding: 0;
       text-align: center; } }
@@ -1453,7 +1453,7 @@ ul.contact-info {
   float: left;
   border-radius: 50%;
   text-align: center;
-  font: 600 normal 0.9em/25px "Open Sans", sans-serif; }
+  font: 600 normal 0.9em/25px "Helvetica Neue", sans-serif; }
   .train.blue {
     background: #0e6eda;
     color: white; }
@@ -1562,7 +1562,7 @@ section.clients {
     z-index: 99;
     top: 40px; }
     .timeline .year-info button {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Helvetica Neue", sans-serif;
       background: #f9f9f9;
       float: left;
       padding: 10px 15px 7px 15px;
@@ -1860,7 +1860,7 @@ body.resourcelibraries {
       padding: 20px;
       margin: 10px auto 0; } }
   .panel-right h1 {
-    font: 500 2.1em/120% "Open Sans", sans-serif;
+    font: 500 2.1em/120% "Helvetica Neue", sans-serif;
     padding-bottom: 20px;
     letter-spacing: -0.02em;
     font-weight: 600; }
@@ -1869,7 +1869,7 @@ body.resourcelibraries {
         font-size: 1.8em;
         padding-bottom: 10px; } }
   .panel-right span {
-    font: 600 1em/160% "Open Sans", sans-serif;
+    font: 600 1em/160% "Helvetica Neue", sans-serif;
     margin: 0 auto;
     display: block;
     padding: 20px 0px; }
@@ -1878,7 +1878,7 @@ body.resourcelibraries {
         line-height: 140%;
         width: 100%; } }
   .panel-right ul li {
-    font: 600 1em/160% "Open Sans", sans-serif; }
+    font: 600 1em/160% "Helvetica Neue", sans-serif; }
   .panel-right button[type="button"] {
     margin: 15px 10px; }
   .panel-right .contact-box {
