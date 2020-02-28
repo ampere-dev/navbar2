@@ -123,6 +123,24 @@ box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
 	    
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 2px solid red;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 700px;
+  padding: 10px;
+  text-align: justify;
+}
+	    
 </style>
 </head>
 <body>
@@ -197,14 +215,14 @@ transition: all 0.4s ease 0s;
 	  </form>
 
 <div class="split right">
-<br>
+<div class="bg-text">
 <p>For alternating-current projects we need to know the voltage and wattage. There are a few further variable to ask further depending on the situation, frequency being one. Which is important when dealing with reactive load banks.
 
 <p>For direct-current projects we need to know the voltage and current.
 
 <p><b>When you call us, here’s what we may ask you:</b>
 
-	<p>What are the technical requirements? (<b>Volts Amps Kilowatts Frequency And Cables</b>)
+<p>What are the technical requirements? (<b>Volts Amps Kilowatts Frequency And Cables</b>)
 
 <p>What is the total distance between the equipment to be tested and the load banks? (<b>Lengths and Amount Per Phase</b>)
 
@@ -221,6 +239,7 @@ transition: all 0.4s ease 0s;
 <p>Do you need help with system design or operation?
 
 <p>What date will you require the load banks on site?
-  </div> 
+  </div>
+	</div>
 </body>
 </html> 
