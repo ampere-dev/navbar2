@@ -697,7 +697,8 @@ section.split {
         text-align: left;
         width: 90%;
         padding: 0px 0px 0px 70px;
-        position: relative; 
+        position: relative;
+        text-align: justify;
         font-family: "Helvetica Neue", sans-serif; }
         @media (max-width: 815px) {
           section.split > div > div .split-text {
