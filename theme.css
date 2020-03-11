@@ -569,7 +569,7 @@ section {
     text-shadow: 1px 1px 0px #000;
     padding-bottom: 20px;
     letter-spacing: -0.02em; 
-    border-bottom: 1px solid rgba(255, 255, 255,}
+    border-bottom: 1px solid rgba(255, 255, 255,0.9); }
     @media (max-width: 815px) {
       .panel h1 {
         font-size: 1.8em;
