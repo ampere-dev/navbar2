@@ -39,7 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font: 1.8em/100% "Helvetica Neue", sans-serif;
     text-shadow: 1px 1px 0px #000;
-    letter-spacing: -0.02em; }
+    letter-spacing: -0.02em;
+    padding-top: 20px; }
+
 /* General Body Font
 -------------------------------------------------------------- */
 p {
