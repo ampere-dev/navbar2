@@ -9,13 +9,13 @@
     text-decoration: none;
     margin: 0;
     height: 100%;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     padding: 5% 5% 5% 5%;
     text-align: center;
     transition: none;
     line-height: 1;
-    font-family: "Krona One", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .box a >img{
     width:30px;
