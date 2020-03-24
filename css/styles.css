@@ -25,9 +25,11 @@
 .fa-3x {
     font-size: 1.5em !important;
 }
+/* 
 .box:hover {
     background-color: #323232;
-}
+} 
+*/
   .box:hover a{
    color:#fff;
    text-decoration:none;
