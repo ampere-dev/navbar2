@@ -4,7 +4,7 @@
     background-color: transparent;
 } 
   .box a {
-    color: #461e52;
+    color: black;
     display: block;
     width: 100%;
     margin: 0;
@@ -31,7 +31,7 @@
 } 
 */
   .box:hover a{
-   color:#fff;
+   color:red;
    text-decoration:none;
   }
   .mission-next-arrow {
@@ -45,7 +45,7 @@
     border:none;
   }
   .mission-next-arrow,.mission-prev-arrow, button > .fa{
-    color: white;
+    color: black;
     font-size: 2rem !important;
   }
   .mission-next-arrow:hover {
