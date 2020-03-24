@@ -1,0 +1,10 @@
+Sitemap: https://ampere.dev/sitemap.xml
+User-agent: *
+Disallow:
+
+# Make nibbler ignore this site
+User-agent: nibbler
+Disallow: /
+
+User-agent: *
+Disallow: /navbar2/
