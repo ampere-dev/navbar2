@@ -1,12 +1,14 @@
 .box {
-    width: 100px !important;
+    width: 80px !important;
     height: 70px;
     background-color: transparent;
+    margin: auto;
 } 
   .box a {
     color: black;
     display: block;
     text-decoration: none;
+    widthL 100%;
     margin: 0;
     height: 100%;
     font-size: 12px;
