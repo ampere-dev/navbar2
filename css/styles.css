@@ -22,7 +22,7 @@
 .box a >img{
     width: 40px;
     margin: auto;
-    margin-bottom: auto;
+    margin-bottom: 5px;
 }
 .fa-3x {
     font-size: 1.5em !important;
