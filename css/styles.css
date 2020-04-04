@@ -20,9 +20,9 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .box a >img{
-    width:30px;
+    width:40px;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: auto;
 }
 .fa-3x {
     font-size: 1.5em !important;
