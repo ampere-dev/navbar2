@@ -6,7 +6,7 @@
 <link href="https://ampere.dev/" rel="canonical">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">	
+<link rel="stylesheet" href="css/hamburger.css">	
 <title>Load Banks Designed - Innovative - Dynamic | Ampere</title>
 <meta name="description" content="Ampere provides starline tapbox rentals, load banks, commissioning support, power quality studies, transformers, IR inspections, power cables, consulting and QA/QC." />
 <meta name="keywords" content="starline tapbox rentals, load bank rentals, load bank testing, load testing services" />
@@ -22,127 +22,118 @@
   gtag('config', 'UA-157521934-1');
 </script>
 <style>
-        .wrapper {
-  height: 83vh;
+
+body {
+    overflow: hidden; /* Hide scrollbars */
 }
-	    
+
 html { 
-  background: url(Collage.webp) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(images/Collage.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-nav {
-  height: 45px;
-  background: rgba(255,255,255,0);
-}
-
-nav ul {
-  display: flex;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
-}
-
-nav a {
-  display: block;
-  color: white;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-p.ex1 {
-  display: block;
-  color: white;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-}
-
-/* unvisited link */
-a:link {
-  color: white;
-}
-
-/* vistited link */	
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FE0002;
-}
-	
-nav a:hover {
-  color: #FE0002;
-}
-        
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
-}
-	    
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "Helvetica Neue", sans-serif;
-  border: 2px solid red;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 700px;
-  padding: 10px;
-  text-align: justify;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    border: 2px solid red;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 700px;
+    padding: 10px;
+    text-align: justify;
 }
 
 h1 { 
-  display: block;
-  font-size: 1.4em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
+    display: block;
+    font-size: 1.4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 800px;
 }
     </style>
     </head>
 <body>
-    <div class="wrapper">
-  <nav>
-    <div class="appleNav">
-      <ul>
-	<li><a href="./"><img src="Ampere Logo.webp" alt="Logo" height="25"></a></li>
-        <li><a href="what-are-load-banks">LOAD BANKS</a></li>
-        <li><a href="starline-tapbox-rental">STARLINE</a></li>
-        <li><a href="">CABLES</a></li>
-	<li><a href="">COMMISSIONING</a></li>
-        <li><a href="">FLIR</a></li>
-        <li><a href="">POWER QUALITY</a></li>
-        <li><a href="">TRANSFORMERS</a></li>
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-      </ul>
-    </div>
-
-  </nav>
-
-</div>
+<div id="logo">
+        <a href="./"><img src="images/Ampere Logo.webp" alt="Logo" height="30"></a></div>
+<div id="header"><center>
+        <a href="what-are-load-banks">LOAD BANKS</a>
+        <a href="starline-tapbox-rental">STARLINE</a>
+        <a href="test">CABLES</a>
+        <a href="test">COMMISSIONING</a>
+        <a href="test">FLIR</a>
+        <a href="test">POWER QUALITY</a>
+        <a href="test">TRANSFORMERS</a>
+</div></center>
+<nav role='navigation'>
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+    <a href="#1"><li>LOAD BANKS</li></a>
+    <a href="#2"><li>STARLINE</li></a>
+    <a href="#3"><li>CABLES</li></a>
+    <a href="#4"><li>COMMISSIONING</li></a>
+    <a href="#15"><li>CONSULTING</li></a>
+    <a href="#5"><li>FLIR</li></a>
+    <a href="#6"><li>POWER QUALITY</li></a>
+    <a href="#7"><li>TRANSFORMERS</li></a>
+    <a href="#8"><li>RESISTOR PACKAGES</li></a>
+    <a href="#9"><li>CAPABILITY STATEMENT</li></a>
+    <a href="#10"><li>CAD DESIGN</li></a>
+    <a href="#11"><li>3D PRINTING</li></a>
+    <a href="#12"><li>ACCESORIES</li></a>
+    <a href="#13"><li>REPAIR</li></a>
+    <a href="#14"><li>TESTING</li></a>
+    <a href="#15"><li>SUPPORT</li></a>
+    <a href="#15"><li>CONTACT</li></a>
+    <a href="#16"><li>NEWS</li></a>
+    <a href="#17"><li>BLOG</li></a>
+    </ul>
+  </div>
+</nav> 
 
 <div class="bg-text">
 	<center><h1>Load Banks Designed - Innovative - Dynamic</h1></center>
@@ -151,22 +142,10 @@ h1 {
 
 	<center><h3>Call us today at 888-345-LOAD</h3></center>
 </div>
-
-<div class="three-column-footer-contact-form-container">
-  <footer class="three-column-footer-contact-form" data-equalizer data-equalize-by-row="true">
-    <div class="footer-left" data-equalizer-watch>
-      <div class="baseline">
-        <div class="contact-details">
-		<p class="ex1">Office: 888-345-LOAD<br> Mobile: 443-365-0956<br> Po Box 101 Friendship, MD 20758<br><a href="contact" style="text-decoration:none">Inquiry Form</a></p>
-        </div>
-      </div>
-     </div>
-    <div class="footer-right" data-equalizer-watch>
-      <div class="baseline">
-	      <p class="ex1">Mon - Fri 7:00am - 7:00pm<br> Copyright &copy; 2020 Ampere.dev, LLC<br> <a href="" style="text-decoration:none">All rights reserved</a> | <a href="" style="text-decoration:none">Privacy Policy</a> <br><a href="" style="text-decoration:none">Terms of Use</a> | <a href="" style="text-decoration:none">Legal</a> | <a href="" style="text-decoration:none">Site Map</a></p>
-      </div>
-    </div>
-  </footer>
-</div> 
+<div id="footer"><center>
+    <a href="test">AMPERE &copy; 2020</a>
+    <a href="test">PRIVACY & LEGAL</a>
+    <a href="test">CONTACT</a>
+</div></center>
 </body>
 </html>
