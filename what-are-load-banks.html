@@ -3,11 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="https://ampere.dev/" rel="canonical">
-<link href="https://ampere.dev/" rel="home">
+<link href="https://ampere.dev/what-are-load-banks" rel="canonical">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css">	
+<link rel="stylesheet" href="css/hamburger.css">		
 <title>What are load banks? | Ampere</title>
 <meta name="description" content="A load bank is a device which develops an electrical load, via resistance, an inductance or capacitance and applies said load to an electrical power source. " />
 <meta name="keywords" content="Load banks, load bank, What is a load bank, What are load banks" />
@@ -33,6 +32,25 @@
   gtag('config', 'UA-157521934-1');
 </script>
 <style>
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* vistited link */	
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FE0002;
+}
+	
+nav a:hover {
+  color: #FE0002;
+}
 
 #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
@@ -119,63 +137,32 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"; 
 }
 
-nav {
-  height: 45px;
-  background: rgba(255,255,255,0);
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
 }
 
-nav ul {
-  display: flex;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 25px;
 }
 
-nav li {}
-
-nav a {
-  display: block;
-  color: black;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-	
-/* unvisited link */
-a:link {
-  color: black;
-}
-
-/* vistited link */	
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: #FE0002;
-}
-nav a:hover {
-  color: #FE0002;
-}
-        
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 800px;
 }
 
 </style>
 </head>
 <body>
-    <div class="wrapper">
-  <nav>
-    <div class="appleNav">
-      <ul>
+<div id="logo">
         <a href="./"><img src="images/Ampere Logo.webp" alt="Logo" height="30"></a></div>
 <div id="header"><center>
         <a href="what-are-load-banks">LOAD BANKS</a>
@@ -184,10 +171,38 @@ nav a:hover {
         <a href="test">FLIR</a>
         <a href="test">POWER QUALITY</a>
         <a href="test">TRANSFORMERS</a>
-  </a>
-      </ul>
-    </div>
-  </nav>
+</div></center>
+	
+<nav role='navigation'>
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+    <a href="#8"><li>RESISTOR PACKAGES</li></a>
+    <a href="#9"><li>CAPABILITIES</li></a>
+    <a href="#9"><li>COMMISSIONING</li></a>
+    <a href="#9"><li>PROJECT DESIGN</li></a>
+    <a href="#9"><li>PROJECT MANAGEMENT</li></a>
+    <a href="#12"><li>ACCESORIES</li></a>
+    <a href="#13"><li>EQUIPMENT REPAIR</li></a>
+    <a href="#14"><li>EQUIPMENT TESTING</li></a>
+    <a href="#15"><li>TECHNICAL SUPPORT</li></a>
+    <a href="#15"><li>CONTACT</li></a>
+    <a href="#9"><li>ABOUT</li></a>
+    <a href="#16"><li>NEWS</li></a>
+    <a href="test"><li>REVIEWS</li></a>
+    <a href="#17"><li>BLOG</li></a>
+    </ul>
+  </div>
+</nav> 
         <!-- ICON SLIDER STARTS -->
         <div class="container">
             <div class="row">
