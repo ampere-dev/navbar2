@@ -8,7 +8,7 @@ body
 }
 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -17,7 +17,7 @@ a:hover {
 }
 
 a:visited  {
-  color: white;
+  color: black;
 }
 
 #menuToggle
@@ -59,7 +59,7 @@ a:visited  {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #eee;
+  background: #fff;
   border-radius: 3px;
   
   z-index: 1;
@@ -140,8 +140,8 @@ a:visited  {
   /*padding-bottom: 90px;*/
   right: -100px;
   border: 2px solid red;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  /*background-color: rgb(0,0,0); Fallback color */
+  /*background-color: rgba(0,0,0,0.6); /* Black w/opacity/see-through */
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -163,7 +163,7 @@ a:visited  {
 {
   padding: 10px 0;
   font-size: 14px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 /*
