@@ -1,14 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="https://ampere.dev/" rel="canonical">
-<link href="https://ampere.dev/" rel="home">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">	
+<link href="https://ampere.dev/navbar2/starline-tapbox-paddle" rel="canonical">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/hamburger.dark.css">	
 <title>Starline TapBox Paddle | Ampere</title>
 <meta name="description" content="Replace damaged paddles due to arc-flash, shipping damage, or physical wear and tear." />
 <meta name="keywords" content="Starline Paddle Repair, Starline Repair, Tapbox Repair, Starline Tap Box Repair" />
@@ -26,7 +24,6 @@
     <!-- SCRIPTS END -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157521934-1"></script>
-
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -35,14 +32,24 @@
   gtag('config', 'UA-157521934-1');
 </script>
     <style>
-	    
-#footer a { 
-    padding: 0px 10px;
-    word-wrap: normal;
-    display: inline-block;
-    font-size: 14px;
-   /*  margin-top: 800px; */
-    font-family: "Krona One", sans-serif;
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */	
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FE0002;
+}
+	
+nav a:hover {
+  color: #FE0002;
 }
 	    
 h1 {
@@ -71,56 +78,34 @@ p.ex1 {
   font-size: 14px;
 }
 
-/* unvisited link */
-a:link {
-  color: black;
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"; 
 }
 
-/* vistited link */	
-a:visited {
-  color: black;
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
 }
 
-/* mouse over link */
-a:hover {
-  color: #FE0002;
-}
-	 
-nav {
-  height: 45px;
-  background: rgba(255,255,255,0);
-}
-
-nav ul {
-  display: flex;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-family: "Krona One", "Arial", "Lucida Grande", "sans-serif"; ;
+    font-size: 14px;
+    margin-top: 25px;
 }
 
-nav li {}
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+   /*  margin-top: 800px; */
+    font-family: "Krona One", sans-serif;
+} 
 
-nav a {
-  display: block;
-  color: black;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #FE0002;
-}
-        
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
-}
 
 </style>
 </head>
