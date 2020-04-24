@@ -34,15 +34,26 @@
 </script>
     <style>
 	    
-#footer a { 
-    padding: 0px 10px;
-    word-wrap: normal;
-    display: inline-block;
-    font-size: 14px;
-   /*  margin-top: 800px; */
-    font-family: "Krona One", sans-serif;
+
+/* unvisited link */
+a:link {
+  color: black;
 }
-	    
+
+/* visited link */	
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FE0002;
+}
+	
+nav a:hover {
+  color: #FE0002;
+}
+		    
 h1 {
   font-size: 1.5em;
 }
@@ -63,56 +74,33 @@ p.ex1 {
   font-size: 14px;
 }
 
-/* unvisited link */
-a:link {
-  color: black;
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"; 
 }
 
-/* vistited link */	
-a:visited {
-  color: black;
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
 }
 
-/* mouse over link */
-a:hover {
-  color: #FE0002;
-}
-	 
-nav {
-  height: 45px;
-  background: rgba(255,255,255,0);
-}
-
-nav ul {
-  display: flex;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-family: "Krona One", "Arial", "Lucida Grande", "sans-serif"; ;
+    font-size: 14px;
+    margin-top: 25px;
 }
 
-nav li {}
-
-nav a {
-  display: block;
-  color: black;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #FE0002;
-}
-        
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
-}
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+   /*  margin-top: 800px; */
+    font-family: "Krona One", sans-serif;
+} 
 
 </style>
 </head>
