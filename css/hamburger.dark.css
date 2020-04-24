@@ -173,5 +173,5 @@ a:visited  {
 {
   -webkit-transform: scale(1.0, 1.0);
           transform: scale(1.0, 1.0);
-  opacity: 1;
+  background-color: white;
 }
